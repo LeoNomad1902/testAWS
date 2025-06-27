@@ -12,6 +12,7 @@ def lambda_handler(event, context):
     URL = "http://maps.googleapis.com/maps/api/geocode/json"
     location = event['landmark']
     # defining a params dict for the parameters to be sent to the API
+    #fasdfd
     PARAMS = {'address':location}
  
     # sending get request and saving the response as response object
